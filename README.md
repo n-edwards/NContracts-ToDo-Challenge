@@ -17,14 +17,14 @@ npx playwright install --with-deps
 
 ```bash
 # Full suite (headless)
-npx playwright test # default
-npm test # alternative
+npx playwright test  # default
+npm test  # alternative
 
 # With browser visible
 npm run test:headed
 
 # Interactive UI mode
-npm run test:ui
+npm run test:ui  # recommended to veryify passing tests, step by step
 ```
 
 ## View HTML report
